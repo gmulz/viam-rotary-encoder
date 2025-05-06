@@ -1,8 +1,8 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "grant-dev:quadrature-encoder",
-  "visibility": "public",
-  "url": "",
+  "visibility": "public_unlisted",
+  "url": "https://github.com/gmulz/viam-rotary-encoder",
   "description": "Modular encoder component: ky-040",
   "models": [
     {
