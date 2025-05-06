@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "grant-dev:quadrature-encoder",
+  "visibility": "public",
+  "url": "",
+  "description": "Modular encoder component: ky-040",
+  "models": [
+    {
+      "api": "rdk:component:encoder",
+      "model": "grant-dev:quadrature-encoder:ky-040",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-grant-devquadrature-encoderky-040"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "reload.sh",
+  "first_run": "",
+  "build": {
+    "build": "rm -f module.tar.gz && tar czf module.tar.gz requirements.txt src/*.py src/models/*.py meta.json setup.sh reload.sh && chmod 777 module.tar.gz",
+    "path": "dist/archive.tar.gz",
+    "arch": ["linux/amd64", "linux/arm64"]
+  }
+}

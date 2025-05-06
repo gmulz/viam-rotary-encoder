@@ -1,0 +1,13 @@
+{
+  "module_name": "quadrature-encoder",
+  "namespace": "grant-dev",
+  "language": "python",
+  "resource_type": "component",
+  "resource_subtype": "encoder",
+  "model_name": "ky-040",
+  "enable_cloud_build": true,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-05-06T18:17:24.85769Z",
+  "module_readme_link": "README.md"
+}
